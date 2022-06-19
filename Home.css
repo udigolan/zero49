@@ -336,21 +336,29 @@
 }
 
 .u-section-2 .u-icon-3.u-icon-3.u-icon-3:hover {
-  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  transform: translateX(0px) translateY(0px) scale(1.1) !important;
   stroke-width: 0px !important;
+  stroke: #404040 !important;
+  border-color: #404040 !important;
 }
 
 .u-section-2 .u-icon-3 {
   stroke-width: 0 !important;
+  stroke: transparent !important;
+  border-color: transparent !important;
 }
 
 .u-section-2 .u-icon-3.u-icon-3.u-icon-3.hover {
-  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  transform: translateX(0px) translateY(0px) scale(1.1) !important;
   stroke-width: 0px !important;
+  stroke: #404040 !important;
+  border-color: #404040 !important;
 }
 
 .u-section-2 .u-icon-3 {
   stroke-width: 0 !important;
+  stroke: transparent !important;
+  border-color: transparent !important;
 }
 
 .u-section-2 .u-container-layout:hover .u-icon-3 {
