@@ -27,6 +27,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 53.7% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 1143px;
   }
