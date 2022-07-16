@@ -1,7 +1,3 @@
- .u-section-1 {
-  background-position: 50% 50%;
-}
-
 .u-section-1 .u-sheet-1 {
   min-height: 1386px;
 }
@@ -545,7 +541,6 @@
   }
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -574,6 +569,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 439px;
   }
@@ -1037,7 +1036,6 @@
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-6 {
   min-height: 481px;
-  background-position: 50% 50%;
 }
 
 .u-section-6 .u-group-1 {
@@ -1063,6 +1061,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-6 {
+    background-position: 50% 50%;
+  }
+
   .u-section-6 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
@@ -1421,7 +1423,6 @@
   }
 } .u-section-8 {
   min-height: 500px;
-  background-position: 50% 50%;
 }
 
 .u-section-8 .u-group-1 {
@@ -1454,7 +1455,6 @@
   grid-template-columns: calc(16.6667% - 7.5px) calc(16.6667% - 7.5px) calc(16.6667% - 7.5px) calc(16.6667% - 7.5px) calc(16.6667% - 7.5px) calc(16.6667% - 7.5px);
   grid-gap: 9px 9px;
   min-height: 269px;
-  grid-auto-columns: calc(16.6667% - 7.5px);
 }
 
 .u-section-8 .u-list-item-1 {
@@ -1620,6 +1620,7 @@
 
 @media (max-width: 1199px) {
    .u-section-8 {
+    background-position: 50% 50%;
     min-height: 747px;
   }
 
@@ -1641,7 +1642,6 @@
     grid-gap: 10px 10px;
     min-height: 568px;
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-    grid-auto-columns: calc(33.3333% - 6.66667px);
   }
 
   .u-section-8 .u-text-3 {
@@ -1692,8 +1692,7 @@
 
   .u-section-8 .u-repeater-1 {
     min-height: 487px;
-    grid-auto-columns: calc(33.3333% - 6px);
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   }
 
   .u-section-8 .u-container-layout-2 {
@@ -1754,7 +1753,6 @@
   .u-section-8 .u-repeater-1 {
     grid-gap: 34px 34px;
     min-height: 731px;
-    grid-auto-columns: calc(50% - 17px);
     grid-template-columns: 100%;
   }
 
@@ -1849,7 +1847,6 @@
   .u-section-8 .u-repeater-1 {
     grid-gap: 5px 5px;
     min-height: 1516px;
-    grid-auto-columns: 100%;
   }
 
   .u-section-8 .u-icon-1 {
