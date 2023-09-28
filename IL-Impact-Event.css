@@ -663,18 +663,8 @@
   letter-spacing: 0px;
   background-image: none;
   font-family: Montserrat, sans-serif;
-  margin: 153px 0 0;
-}
-
-.u-section-5 .u-btn-1 {
-  border-style: none;
-  font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  background-image: none;
-  margin: 62px auto 0;
-  padding: 14px 44px 15px;
+  margin: 206px 0 60px;
 }
 
 @media (max-width: 1199px) {
@@ -684,10 +674,6 @@
 
   .u-section-5 .u-sheet-1 {
     min-height: 439px;
-  }
-
-  .u-section-5 .u-text-1 {
-    text-transform: uppercase;
   }
 }
 
@@ -712,10 +698,6 @@
     font-size: 1.875rem;
     width: auto;
     margin-top: 112px;
-  }
-
-  .u-section-5 .u-btn-1 {
-    margin-top: 65px;
   }
 } .u-section-6 {
   margin-top: 20px;
